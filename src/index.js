@@ -18,6 +18,7 @@ import S from "./components/s";
 import Slide from "./components/slide";
 import Spectacle from "./components/spectacle";
 import Text from "./components/text";
+import GitGraph from "./components/git-graph";
 
 export {
   Appear,
@@ -28,6 +29,7 @@ export {
   Deck,
   Fill,
   Fit,
+  GitGraph,
   Heading,
   Image,
   Layout,
