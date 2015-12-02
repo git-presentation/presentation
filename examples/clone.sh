@@ -1,0 +1,1 @@
+git clone git@github.com:git-presentation/example.git git-presentation

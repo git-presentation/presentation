@@ -41,7 +41,7 @@ export const WhatIsGit = (
     </ul>"
   >
      <Heading size={2}>
-      What is
+      Why use
       <Image src={images.gitLogo.replace("/", "")} margin="-20px 20px" height="100px" />
       ?
     </Heading>
@@ -63,17 +63,18 @@ export const TableOfContents = (
       <Fill>
       {/* Maak dit clickable */}
         <List>
+          <ListItem><Link href="/git-init">git init</Link></ListItem>
           <ListItem><Link href="/git-clone">git clone</Link></ListItem>
-          <ListItem>git add</ListItem>
           <ListItem>git status</ListItem>
-          <ListItem>git diff</ListItem>
+          <ListItem>git add</ListItem>
           <ListItem>git commit</ListItem>
+          <ListItem>git diff</ListItem>
           <ListItem>git log</ListItem>
-          <ListItem>git reset</ListItem>
         </List>
       </Fill>
       <Fill>
         <List>
+          <ListItem>git reset</ListItem>
           <ListItem>git branch</ListItem>
           <ListItem>git checkout</ListItem>
           <ListItem>git rebase / merge</ListItem>

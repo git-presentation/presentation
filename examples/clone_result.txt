@@ -1,0 +1,11 @@
+$> git clone git@github.com:git-presentation/example.git git-presentation
+Cloning into 'git-presentation'...
+remote: Counting objects: 20, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 20 (delta 8), reused 17 (delta 5), pack-reused 0
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (8/8), done.
+Checking connectivity... done.
+
+$> ls git-presentation
+scripts
