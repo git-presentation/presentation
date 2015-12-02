@@ -202,7 +202,7 @@ export const Summary = (
 export const Assignment = (
   <Slide>
     <Heading size={2}>Assignment</Heading>
-    <Text margin="20px 0" textAlign="left" lineHeight="1.5em">
+    <Text margin="20px 0" textAlign="left" lineHeight={1.5}>
       Change the <Code>README</Code> file and add a new file. Add both files to the staging area and save (commit) them.
       Use <Code>git status</Code>, <Code>git diff</Code> and <Code>git log</Code> to verify that everything is working correctly.
     </Text>

@@ -24,7 +24,7 @@ export const Title = (
       sudo apt-get install git
     </CodePane>
     <Text>
-      * Or use your own prefered packaga manager
+      * Or use your own prefered package manager
     </Text>
   </Slide>
 );
