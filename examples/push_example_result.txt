@@ -1,0 +1,17 @@
+$> sh scripts/push-example.sh
+Creating a remote repository...
+Initialized empty Git repository in /home/mark/Projects/Talks/git-workshop/remote-repository/
+Creating a local repository...
+Initialized empty Git repository in /home/mark/Projects/Talks/git-workshop/local-repository/.git/
+Setting remote-repository as remote...
+Adding a file to the repository...
+[master (root-commit) aafc589] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README
+Pushing the initial commit...
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 211 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ../remote-repository
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.

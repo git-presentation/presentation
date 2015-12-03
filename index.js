@@ -7,6 +7,7 @@ require("./src/themes/default/index.css");
 
 import * as Introduction from "./presentation/introduction";
 import * as Basics from "./presentation/basics";
+import * as Remote from "./presentation/remote";
 
 render(
   <Spectacle>
@@ -29,6 +30,12 @@ render(
       {Basics.Show}
       {Basics.Summary}
       {Basics.Assignment}
+
+      {Remote.Clone}
+      {Remote.CloneExample}
+      {Remote.ChangeReadme}
+      {Remote.Push}
+      {Remote.PushAssignment}
 
     </Deck>
   </Spectacle>

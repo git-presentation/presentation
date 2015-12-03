@@ -1,0 +1,10 @@
+$> tree git-workshop
+.
+└── scripts
+    ├── branch-example.sh
+    ├── conflict-example.sh
+    ├── init-repos.sh
+    ├── pull-example.sh
+    ├── push-example.sh
+    ├── random-commit.sh
+    └── rebase-example.sh

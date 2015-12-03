@@ -1,0 +1,3 @@
+$> git log --all --oneline --decorate
+7f282e3 (HEAD -> master, origin/master) Update the README file
+9b21cc8 Initial commit
