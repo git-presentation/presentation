@@ -155,6 +155,23 @@ Date:   Wed Dec 2 21:11:57 2015 +0100
   </Slide>
 );
 
+export const Representations = (
+  <Slide>
+    <Heading fit size={2}>git commit representations</Heading>
+    <Text margin="20px 0">
+      Each commit is represented by a unique hash.
+    </Text>
+    <List>
+      <ListItem>e0e69b97c05c5169d6d545d1c53a387a32ea12d3</ListItem>
+      <ListItem>e0e</ListItem>
+      <ListItem>HEAD</ListItem>
+      <ListItem>HEAD^</ListItem>
+      <ListItem>HEAD~1</ListItem>
+      <ListItem>HEAD^^^ == HEAD~3</ListItem>
+    </List>
+  </Slide>
+);
+
 export const Show = (
   <Slide id="git-show">
     <Heading size={2}>git show</Heading>

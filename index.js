@@ -25,6 +25,7 @@ render(
       {Basics.Commit}
       {Basics.Status("status_commit", "Since we have saved all changes, git status will show us that nothing has changed")}
       {Basics.Log}
+      {Basics.Representations}
       {Basics.Show}
       {Basics.Summary}
       {Basics.Assignment}
