@@ -1,0 +1,13 @@
+$> git diff
+diff --cc README
+index c54303b,0c40e90..0000000
+--- a/README
++++ b/README
+@@@ -1,1 -1,1 +1,1 @@@
+- Change the README file
+ -This was already changed in the remote repository
+++Conflict resolved
+$> git add README
+$> git commit
+$> git status
+$> git push

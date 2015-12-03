@@ -1,0 +1,8 @@
+$> git checkout -b fix-typos
+Switched to a new branch 'fix-typos'
+$> git commit -am "Fix typos"
+$> git checkout master
+$> git merge fix-typos --no-ff
+Merge made by the 'recursive' strategy.
+ README | 1 +
+ 1 file changed, 1 insertion(+)

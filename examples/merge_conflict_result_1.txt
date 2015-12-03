@@ -1,0 +1,19 @@
+$> sh scripts/conflict-example.sh
+$> cd local-repository
+$> echo "Change the README file" > README
+$> git commit -am "Commit"
+$> git push
+$> git pull
+$> git status
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+    both modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")

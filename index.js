@@ -31,19 +31,28 @@ render(
       {Basics.Show}
       {Basics.Summary}
       {Basics.Assignment}
-
       {Remote.Clone}
       {Remote.CloneExample}
       {Remote.ChangeReadme}
       {Remote.Push}
       {Remote.PushAssignment}
-      {Remote.Pull}
       {Remote.PullAssignment}
 
       {Branching.Branches}
       {Branching.Branch}
       {Branching.Checkout}
       {Branching.Merge}
+      {Branching.MergeNoFF}
+      {Branching.Assignment}
+
+      {Remote.Fetch}
+      {Branching.Rebase}
+      {Branching.RebaseAssignment}
+      {Branching.MergeConflicts}
+      {Branching.MergeConflicts2}
+      {Branching.MergeConflicts3}
+      {Branching.MergeConflictAssignment}
+
 
     </Deck>
   </Spectacle>
