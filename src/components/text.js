@@ -82,7 +82,8 @@ export default class Text extends Component {
 }
 
 Text.defaultProps = {
-  lineHeight: 1
+  lineHeight: 1.5,
+  textAlign: "left"
 };
 
 Text.propTypes = {

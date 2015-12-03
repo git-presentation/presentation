@@ -231,9 +231,10 @@ const screen = (colorArgs = defaultColors, fontArgs = defaultFonts) => {
       },
       text: {
         color: "black",
-        fontSize: "2.66rem",
+        fontSize: "2.33rem",
         fontFamily: fonts.primary,
-        margin: "0.25rem auto"
+        margin: "0.25rem auto",
+        lineHeight: 1.5
       }
     }
   };
