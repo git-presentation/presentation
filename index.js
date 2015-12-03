@@ -8,6 +8,7 @@ require("./src/themes/default/index.css");
 import * as Introduction from "./presentation/introduction";
 import * as Basics from "./presentation/basics";
 import * as Remote from "./presentation/remote";
+import * as Branching from "./presentation/branching";
 
 render(
   <Spectacle>
@@ -38,6 +39,11 @@ render(
       {Remote.PushAssignment}
       {Remote.Pull}
       {Remote.PullAssignment}
+
+      {Branching.Branches}
+      {Branching.Branch}
+      {Branching.Checkout}
+      {Branching.Merge}
 
     </Deck>
   </Spectacle>

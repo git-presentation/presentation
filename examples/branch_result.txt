@@ -1,0 +1,6 @@
+$> git branch
+* master
+$> git branch fix-typos
+$> git branch
+  fix-typos
+* master

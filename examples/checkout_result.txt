@@ -1,0 +1,5 @@
+$> git branch fix-typos
+$> git checkout fix-typos
+Switched to branch 'fix-typos'
+$> git add -p
+$> git commit -m "Fix typos"
