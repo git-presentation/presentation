@@ -51,7 +51,7 @@ export const Branches = (
       }}
     />
      <Text margin="20px 0">
-      The example above contians three branches, a <strong>master</strong>, <strong>documentation-feature</strong> and a <strong>fix-typos</strong> branch.
+      The example above contains three branches, a <strong>master</strong>, <strong>documentation-feature</strong> and a <strong>fix-typos</strong> branch.
     </Text>
 
   </Slide>
