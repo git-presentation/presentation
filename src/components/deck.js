@@ -14,6 +14,7 @@ import Presenter from "./presenter";
 import Export from "./export";
 import Overview from "./overview";
 
+import Fullscreen from "./fullscreen";
 import Progress from "./progress";
 const TransitionGroup = Radium(ReactTransitionGroup);
 
@@ -343,6 +344,7 @@ export default class Deck extends Component {
     if (this.context.presenter) {
       componentToRender = (
         <Presenter
+          dispatch={this.props.dispatch}
           slides={children}
           slide={this._getSlideIndex()}
           hash={this.context.slide}
@@ -377,6 +379,12 @@ export default class Deck extends Component {
             type={this.props.progress}
           /> : ""
         }
+
+        {
+          !this.context.export ?
+           <Fullscreen/> : ""
+        }
+
         <Style rules={Object.assign(this.context.styles.global, globals)} />
       </div>
     );

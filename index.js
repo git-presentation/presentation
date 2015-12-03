@@ -3,19 +3,14 @@ import { render } from "react-dom";
 import { Spectacle, Deck } from "./src";
 
 require("normalize.css");
-require("./themes/default/index.css");
-require("highlight.js/styles/monokai_sublime.css");
+require("./src/themes/default/index.css");
 
 import * as Introduction from "./presentation/introduction";
 import * as Basics from "./presentation/basics";
 
 render(
-  <Spectacle
-    theme={require("./themes/default/index")}
-    print={require("./themes/default/print")}
-  >
-    <Deck transition={["slide"]} transitionDuration={500} progress={"bar"}>
-
+  <Spectacle>
+    <Deck transition={["slide", "spin"]} transitionDuration={500} progress={"bar"}>
       {Introduction.Title}
       {Introduction.WhatIsGit}
       {Introduction.TableOfContents}

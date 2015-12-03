@@ -23,3 +23,7 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+code[class*="language-"], pre[class*="language-"] {
+    color: white;
+}
