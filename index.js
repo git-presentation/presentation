@@ -11,7 +11,7 @@ import * as Remote from "./presentation/remote";
 
 render(
   <Spectacle>
-    <Deck transition={["slide", "spin"]} transitionDuration={500} progress={"bar"}>
+    <Deck transition={["slide"]} transitionDuration={500} progress={"bar"}>
       {Introduction.Title}
       {Introduction.WhatIsGit}
       {Introduction.TableOfContents}
