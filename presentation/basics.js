@@ -6,7 +6,7 @@ import {
 } from "./../src";
 
 export const Init = (
-  <Slide id="git-init">
+  <Slide>
     <Heading size={2}>git init</Heading>
     <Text margin="20px 0">
       Create an empty Git repository
@@ -29,17 +29,19 @@ export const AddReadme = (
     <CodePane
       lang="bash"
       margin="25 0 25px"
+
+      // with source:
       source={`
 cd my-repository
 
 echo "I'm learning to use Git." >> README
-        `}
+      `}
     />
   </Slide>
 );
 
 export const StatusDef = (
-  <Slide id="git-status">
+  <Slide>
     <Heading size={2}>git status</Heading>
     <Text margin="20px 0">
       Shows paths of files that have been changed
@@ -67,7 +69,7 @@ export const Status = (exampleFilename, description) => {
 };
 
 export const Add = (
-  <Slide id="git-add">
+  <Slide>
     <Heading size={2}>git add</Heading>
     <Text margin="20px 0">
       Start tracking changes to the readme file
@@ -92,7 +94,7 @@ Changes to be committed:
 );
 
 export const DiffStaged = (
-  <Slide id="git-diff-staged">
+  <Slide>
     <Heading size={2}>git diff --staged</Heading>
     <Text margin="20px 0">
       Shows differences between staged and commited files
@@ -116,7 +118,7 @@ index 0000000..a2390a0
 );
 
 export const Commit = (
-  <Slide id="git-commit">
+  <Slide>
     <Heading size={2}>git commit</Heading>
     <Text margin="20px 0">Commit (save) the current changes</Text>
     <CodePane
@@ -134,7 +136,7 @@ $> git commit -m "Initial Commit"
 );
 
 export const Log = (
-  <Slide id="git-log">
+  <Slide>
     <Heading size={2}>git log</Heading>
     <Text margin="20px 0">
       Show commit logs
@@ -173,7 +175,7 @@ export const Representations = (
 );
 
 export const Show = (
-  <Slide id="git-show">
+  <Slide>
     <Heading size={2}>git show</Heading>
     <Text margin="20px 0">
       Show commit logs

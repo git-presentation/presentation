@@ -5,7 +5,7 @@ import {
 } from "./../src";
 
 export const Clone = (
-  <Slide old_id="git-clone">
+  <Slide>
     <Heading size={2}>git clone</Heading>
     <Text margin="20px 0">
       Clone (download) a remote git repository to the current directory
