@@ -11,7 +11,7 @@ export const Clone = (
       Clone (download) a remote git repository to the current directory
     </Text>
     <CodePane lang="bash" margin="25 0 25px">
-      git clone git@github.com:git-workshop/example.git git-workshop
+      git clone https://github.com/git-presentation/presentation.git git-workshop
     </CodePane>
   </Slide>
 );
