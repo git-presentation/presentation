@@ -36,6 +36,8 @@ render(
       {Remote.ChangeReadme}
       {Remote.Push}
       {Remote.PushAssignment}
+      {Remote.Pull}
+      {Remote.PullAssignment}
 
     </Deck>
   </Spectacle>

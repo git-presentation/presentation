@@ -79,7 +79,7 @@ export const Push = (
 
     <CodePane
       lang="bash"
-      source={require("raw!./../examples/push_log_result.txt")}
+      source={require("raw!./../examples/push_post_result.txt")}
       margin="25 0 25px"
     />
   </Slide>
@@ -90,6 +90,42 @@ export const PushAssignment = (
     <Heading size={2}>Assignment</Heading>
     <Text margin="20px 0" textAlign="left" lineHeight={1.5}>
       Run <Code>sh scripts/push-example.sh</Code> make changes to the local repository and use <Code>git push</Code> to synchronize with the remote repository.
+    </Text>
+  </Slide>
+);
+
+export const Pull = (
+  <Slide>
+    <Heading size={2}>git pull</Heading>
+    <Text margin="20px 0">
+      Use <Code>git pull</Code> to get recent changes from a remote repository.
+    </Text>
+    <CodePane
+      lang="bash"
+      source={require("raw!./../examples/pull_pre_result.txt")}
+      margin="25 0 25px"
+    />
+
+    <CodePane
+      lang="bash"
+      source={require("raw!./../examples/pull_result.txt")}
+      margin="25 0 25px"
+    />
+
+    <CodePane
+      lang="bash"
+      source={require("raw!./../examples/pull_post_result.txt")}
+      margin="25 0 25px"
+    />
+  </Slide>
+);
+
+export const PullAssignment = (
+  <Slide>
+    <Heading size={2}>Assignment</Heading>
+    <Heading margin="30px 0 5px" textAlign="left" size={5}>1. Pull changes</Heading>
+    <Text margin="20px 0" textAlign="left" lineHeight={1.5}>
+      Run <Code>sh scripts/pull-example.sh</Code> and use <Code>git pull</Code> to synchronize with the remote repository.
     </Text>
   </Slide>
 );
